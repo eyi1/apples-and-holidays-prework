@@ -82,7 +82,7 @@ def all_holidays_with_bbq(holiday_hash)
 holiday_hash.map do |season, holiday|
   holiday.each do |holiday, item|
       item.include?("BBQ")
-      pry
+      binding.pry
       end
     end
   end
