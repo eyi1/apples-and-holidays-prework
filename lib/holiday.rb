@@ -84,7 +84,8 @@ holiday_hash.map do |season, holiday|
       if item.include?("BBQ")
         holiday
         end
+        holiday.flatten
       end
     end
-    holiday.flatten
+    
 end
